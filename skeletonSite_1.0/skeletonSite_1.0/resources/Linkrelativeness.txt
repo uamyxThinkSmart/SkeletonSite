@@ -1,0 +1,36 @@
+﻿index.php
+	head.php
+		media.php
+			style.php
+	header.php
+		logo.php
+		banner.php
+		login.php
+		register.php
+		navi.php
+	search.php
+		simplesearch.php
+		advancedsearch.php
+	results.php
+		rsltprofile.php
+			profilelayout.html
+
+	footer.php
+		
+
+
+		include('head.php');
+include('header.php');
+        include('logo.php');
+        include('banner.php');
+        include('login.php');
+        include('register.php');
+        include('navi.php');
+include('search.php');
+    include('simplesearch.php');
+    include('advancedsearch.php');
+include('results.php');
+    include('rsltprofile.php');
+    include('profilelayout.php');
+include('footer.php');
+

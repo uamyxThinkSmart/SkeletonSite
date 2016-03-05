@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>skeletonSite_1.0</Name>
+    <ProjectGuid>85dfadc6-d214-42f6-8df5-617bd67cfb95</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>skeletonSite_1.0</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="content\" />
+    <Folder Include="content\template\" />
+    <Folder Include="resources\" />
+    <Folder Include="resources\images\" />
+    <Folder Include="resources\css\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\images\default-logo.jpg" />
+    <Content Include="resources\Linkrelativeness.txt" />
+    <Content Include="resources\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="banner.php" />
+    <Compile Include="content.php" />
+    <Compile Include="logo.php" />
+    <Compile Include="home.php" />
+    <Compile Include="index.php" />
+    <Compile Include="navigation.php" />
+    <Compile Include="page.php" />
+    <Compile Include="resources\css\stylesheetIndex.php" />
+    <Compile Include="top.php" />
+  </ItemGroup>
+</Project>

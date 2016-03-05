@@ -1,0 +1,78 @@
+﻿body {
+    background-color : tan;
+    margin: 0;
+    padding: 0;
+
+}
+#pagecontainer{
+    text-align: left;
+    width: 800px;
+    margin: 0 auto;
+    margin-top:10px;
+}
+#top {
+    height: 120px;
+    width:auto;
+    background-color: white;
+    text-align: center;
+}
+#logocontainer {
+    float:left;
+    width:100px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#top #banner{
+    
+   font-size:larger;
+   height:auto;
+    padding-bottom: 50px;
+
+}
+#top header {
+    padding-top: 50px;
+}
+
+
+
+#navicontainer {
+    background-color:burlywood;
+    position:relative;
+    
+
+}
+
+
+
+/* NAVIGATION MENU*/
+#navicontainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+
+}
+
+#navicontainer li {
+    float: right;
+}
+
+#navicontainer li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navicontainer li a:hover {
+    background-color: #111;
+}
+
+
